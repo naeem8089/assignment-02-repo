@@ -9,15 +9,15 @@
 <body >
 <header>
     <!-- Navbar -->
-  <nav class="flex justify-between items-center px-12  py-6">
+  <nav class="flex justify-between items-center px-12 py-6 ">
     <!-- Logo -->
     <div class="flex items-center space-x-2">
       <img src="images/logo.png" alt="Logo" class="h-15 w-20">
     
     </div>
     <!-- Links -->
-    <div class="flex items-center space-x-6 text-gray-700">
-      <a href="#" class="font-semibold text-black">Home</a>
+    <div class="flex items-center space-x-6 text-gray-700 ">
+     <a href="#" class="font-semibold text-black ">Home</a>
       <a href="#">Shop</a>
       <a href="#">About us</a>
       <div class="flex items-center space-x-1">
@@ -140,10 +140,151 @@
   </div>
 </section>
 
+<section class="bg-gray-50 px-6 py-12">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+    <!-- Image with Badge -->
+    <div class="relative w-full md:w-1/2">
+      <img src="images/flower-store.png" alt="Flower Shop" class="rounded-lg shadow-md w-full h-full">
+      <img src="images/trusted-badge.png" alt="Trusted Seller" class="absolute top-0 right-0 w-40 h-40 -mt-18 -mr-18">
+    </div>
+
+    <!-- Text Content -->
+    <div class="w-full md:w-1/2">
+      <h1 class="text-3xl md:text-3xl font-bold text-gray-800 mb-6 px-6">Flower & Plants <br> Lover</h1>
+      <ul class="list-disc list-inside text-gray-600 space-y-8 px-10">
+        <li>
+          Indulge your senses with the beauty and <br> fragrance of our fresh flower shop.
+          From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.
+        </li>
+        <li>
+          Indulge your senses with the beauty and <br> fragrance of our fresh flower shop.
+          From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.
+        </li>
+        <li>
+          Indulge your senses with the beauty and <br> fragrance of our fresh flower shop.
+          From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="text-center px-6 py-12 bg-gray-50">
+    <div >
+        <h2 class="text-3xl font-bold"><span class="text-orange-600">Latest</span>  Deals</h2>
+        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    </div>
+</section>
+
+<section class="bg-[#f4f7fe] py-10 px-4">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+    <!-- Left Cards (Stacked) -->
+    <div class="flex flex-col gap-6">
+      <!-- Card 1 -->
+      <div class="relative rounded-xl overflow-hidden h-36 sm:h-44 bg-cover bg-center" style="background-image: url('images/deal-bloom.png')">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+          <p class="text-lg font-semibold">60% Off | Bloom Plant</p>
+          <a href="#" class="underline font-bold text-sm mt-1">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="relative rounded-xl overflow-hidden h-36 sm:h-44 bg-cover bg-center" style="background-image: url('images/deal-ana.png')">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+          <p class="text-lg font-semibold">30% Off | Ana Plant</p>
+          <a href="#" class="underline font-bold text-sm mt-1">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side Large Card -->
+    <div class="lg:col-span-2 relative rounded-xl overflow-hidden h-80 bg-cover bg-center" style="background-image: url('images/deal-zabo.png')">
+      <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+      <div class="absolute inset-0 flex items-center justify-center text-white text-center px-4">
+        <div>
+          <p class="text-2xl sm:text-3xl font-semibold">25% Off | Zabo Plant</p>
+          <a href="#" class="underline font-bold text-base mt-2 inline-block">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="relative bg-cover bg-center bg-no-repeat py-24 px-4" style="background-image: url('assets/news-letter-bg.png')">
+  <div class="bg-black bg-opacity-40 absolute inset-0"></div> <!-- overlay -->
+
+  <div class="relative z-10 max-w-xl mx-auto text-center text-white">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Join the colorful Bunch</h2>
+
+    <form class="flex flex-col sm:flex-row items-center justify-center">
+      <input 
+        type="email" 
+        placeholder="Write email" 
+        class="w-full sm:w-80 px-4 py-2 rounded-l-md text-gray-800 focus:outline-none"
+      />
+      <button 
+        type="submit" 
+        class="bg-orange-500 text-white px-6 py-2 mt-3 sm:mt-0 sm:rounded-r-md hover:bg-orange-600 transition">
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+
 
 </main>
 
+<footer class="bg-gray-50 text-gray-600 px-12 py-10">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+    
+    <!-- Logo & Description -->
+    <div>
+      <div class="flex items-center mb-4">
+         <img src="images/logo.png" alt="Logo" class="h-15 w-20">
+       
+      </div class="mr-4">
+      <p class="text-sm">
+        Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.
+      </p>
+    </div>
 
+    <!-- Navigation Links -->
+    <div class="grid grid-cols-2 gap-8 text-sm">
+      <div class=" ">
+        <a href="#" class="hover:text-orange-500 ">Home</a><br><br>
+        <a href="#" class="hover:text-orange-500 ">About Us</a><br><br>
+        <a href="#" class="hover:text-orange-500 ">Blog</a><br><br>
+        <a href="#" class="hover:text-orange-500 ">FAQ</a>
+      </div>
+      <div class="space-y-2">
+        <a href="#" class="hover:text-orange-500 transition">Features</a><br><br>
+        <a href="#" class="hover:text-orange-500 transition">Pricing</a><br><br>
+        <a href="#" class="hover:text-orange-500 transition">Privacy Policy</a><br><br>
+        <a href="#" class="hover:text-orange-500 transition">Terms of Service</a>
+      </div>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex justify-start md:justify-end space-x-4">
+      <a href="#" class="hover:opacity-75 transition">
+        <img src="images/icon-linkedin.png" alt="LinkedIn" class="w-6 h-6">
+      </a>
+      <a href="#" class="hover:opacity-75 transition">
+        <img src="images/icon-twitter.png" alt="X" class="w-6 h-6">
+      </a>
+      <a href="#" class="hover:opacity-75 transition">
+        <img src="images/icon-facebook.png" alt="Facebook" class="w-6 h-6">
+      </a>
+      <a href="#" class="hover:opacity-75 transition">
+        <img src="images/icon-youtube.png" alt="YouTube" class="w-6 h-6">
+      </a>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
