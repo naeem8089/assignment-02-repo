@@ -17,9 +17,9 @@
     </div>
     <!-- Links -->
     <div class="flex items-center space-x-6 text-gray-700 ">
-     <a href="#" class="font-semibold text-black ">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About us</a>
+     <a href="#" class="font-semibold text-black hidden sm:block">Home</a>
+      <a href="#" class="hidden sm:block">Shop</a>
+      <a href="#"class="hidden sm:block">About us</a>
       <div class="flex items-center space-x-1">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2"
              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">  <path stroke-linecap="round" stroke-linejoin="round"
@@ -33,7 +33,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="flex justify-between items-center px-8 py-12">
+  <div class="flex justify-between items-center px-8 py-12 flex-col sm:flex-row gap-4">
     <!-- Text Content -->
     <div class="max-w-xl">
       <h1 class="text-5xl font-bold text-gray-900">
@@ -49,7 +49,7 @@
     </div>
 
     <!-- Image -->
-    <div class="hidden md:block">
+    <div class="">
       <img src="images/hero-flower.png" alt="Flower bouquet" class="w-[400px]">
     </div>
   </div>  
@@ -145,7 +145,7 @@
     <!-- Image with Badge -->
     <div class="relative w-full md:w-1/2">
       <img src="images/flower-store.png" alt="Flower Shop" class="rounded-lg shadow-md w-full h-full">
-      <img src="images/trusted-badge.png" alt="Trusted Seller" class="absolute top-0 right-0 w-40 h-40 -mt-18 -mr-18">
+      <img src="images/trusted-badge.png" alt="Trusted Seller" class="absolute top-0 right-0 w-40 h-40 -mt-18 -mr-18 hidden sm:block">
     </div>
 
     <!-- Text Content -->
@@ -214,7 +214,7 @@
 </section>
 
 
-<section class="relative bg-cover bg-center bg-no-repeat py-24 px-4" style="background-image: url('assets/news-letter-bg.png')">
+<section class="relative bg-cover bg-center bg-no-repeat py-24 px-4">
   <div class="bg-black bg-opacity-40 absolute inset-0"></div> <!-- overlay -->
 
   <div class="relative z-10 max-w-xl mx-auto text-center text-white">
@@ -243,8 +243,8 @@
     
     <!-- Logo & Description -->
     <div>
-      <div class="flex items-center mb-4">
-         <img src="images/logo.png" alt="Logo" class="h-15 w-20">
+      <div class="flex items-center mb-4 ">
+         <img src="images/logo.png" alt="Logo" class="h-20 w-28">
        
       </div class="mr-4">
       <p class="text-sm">
@@ -253,8 +253,8 @@
     </div>
 
     <!-- Navigation Links -->
-    <div class="grid grid-cols-2 gap-8 text-sm">
-      <div class=" ">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm ">
+      <div class="space-y-2 ">
         <a href="#" class="hover:text-orange-500 ">Home</a><br><br>
         <a href="#" class="hover:text-orange-500 ">About Us</a><br><br>
         <a href="#" class="hover:text-orange-500 ">Blog</a><br><br>
